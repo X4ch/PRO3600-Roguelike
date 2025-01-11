@@ -14,3 +14,9 @@ Pour le moment, le jeu contient un étage généré aléatoirement à chaque dé
 Il est aussi possible d'afficher les statistiques données par l'objet récupéré dans la salle au trésor en ouvrant l'inventaire. Le nom de l'objet ainsi que ses statistiques seront alors affichées.
 
 Les scripts utilisés dans le jeu sont accessibles dans le dossier Assets/Scripts et sont rédigés en C# via VisualStudio.
+
+
+
+///////////////////////////// CONTEXTE
+
+Ce jeu avait été réalisé dans le cadre du cours PRO3600 de Télécom SudParis et était originalement sauvegardé sur GitLab. L'accès ayant été perdu, les membres ont décidé de l'enregistrer ici pour le faire figurer sur leurs portfolio et pouvoir retravailler un jour sur le projet en cas de besoin.
