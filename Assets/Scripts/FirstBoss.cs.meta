@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/FirstBoss.cs.meta
+guid: e0f09f027b1995b4e81cb772fd8563f5
+========
+guid: 6f8a3a79dee351a4f8b247c368bbeab9
+>>>>>>>> player:Assets/Scripts/HealthBar.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

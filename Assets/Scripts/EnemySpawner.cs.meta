@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/EnemySpawner.cs.meta
+guid: 22383658f9c5efb4cb44cdb3fff18ceb
+========
+guid: 49a92c4b17bcc1e41ab6bed7ca160a80
+>>>>>>>> player:Assets/Scripts/Bullet.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

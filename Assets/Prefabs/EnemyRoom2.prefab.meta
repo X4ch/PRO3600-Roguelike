@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/EnemyRoom2.prefab.meta
+guid: 769bc5c8afc6c564b93f46327a6b89aa
+========
+guid: 5ef92aac99c30b34f9f4ffb2edea0c31
+>>>>>>>> player:Assets/Prefabs/Bullet.prefab.meta
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

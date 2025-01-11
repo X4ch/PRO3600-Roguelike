@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/EndRoom.prefab.meta
+guid: 7f1891dd99a5171499e88035297c61f3
+========
+guid: 2a042ced79d8d9e4e8adb43076000765
+>>>>>>>> player:Assets/Prefabs/Canvas.prefab.meta
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

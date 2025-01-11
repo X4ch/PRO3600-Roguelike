@@ -1,0 +1,67 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Bullet : MonoBehaviour
+{
+    public float speed = 20f;
+    
+    public Camera cam;
+    public Rigidbody2D rbPlayer;
+    public Rigidbody2D rbBullet;
+    public GameObject firePoint;
+    
+
+    int Damage = 15;
+
+    Vector2 mousePos;
+   
+
+    // Start is called before the first frame update
+    void Update()
+    {
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+      
+        
+    }
+
+    void FixedUpdate()
+    {
+        //Vector2 roomPosition = currentRoom.GetComponent<RoomCords>().GetPosition().position;
+        //Vector2 lookDir = mousePos - rbPlayer.position + roomPosition;
+<<<<<<< HEAD
+       // Debug.Log( rbPlayer.transform.position);
+        rbBullet.velocity = transform.right * speed;
+=======
+        //Debug.Log( rbPlayer.transform.position);
+        rbBullet.velocity = new Vector2(transform.rotation.x * speed, transform.rotation.y * speed);
+>>>>>>> more_ennemies
+    }
+
+
+
+    void OnTriggerEnter2D (Collider2D hitTarget)
+    {
+        //Debug.Log(hitTarget.name);
+
+        EnemyObject enemy = hitTarget.GetComponent<EnemyObject>();
+
+        if (enemy != null)
+        {
+            enemy.TakeDamage(Damage);
+        }
+        
+
+        if (hitTarget.GetComponent<EnemyObject>())
+        {
+            Destroy(gameObject);
+        }
+        else if (hitTarget.CompareTag("Wall")) 
+        {
+            Destroy(gameObject);
+        }
+
+        
+    }
+
+}

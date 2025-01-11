@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/BossRoom.cs.meta
+guid: 83059e8d067004846b2a8fb509507fbe
+========
+guid: 4769c75baf8a2514ebd042257036716e
+>>>>>>>> player:Assets/Scripts/Arme.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
